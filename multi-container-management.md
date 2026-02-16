@@ -2,6 +2,10 @@ This document explains how to manage a multi-container application consisting of
 Web Service-Flask Python application \
 Database Service-PostgreSQL database \
 Docker Compose is used to orchestrate and manage both containers together as a single application stack. \
+Prerequisites \
+1. A ubuntu instance with installed docker and docker compose, git
+2. Ensure that specified ports in app are free.
+3. A python application with databse integration and docker-compose.yml
 Steps to manage mutli-container application usign docker compose
 1. Start the application: From the project directory, satrt all services \
   docker compose up -d
