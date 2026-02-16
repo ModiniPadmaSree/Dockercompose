@@ -6,7 +6,7 @@ Prerequisites \
 1. A ubuntu instance with installed docker and docker compose, git
 2. Ensure that specified ports in app are free.
 3. A python application with databse integration and docker-compose.yml
-Steps to manage mutli-container application usign docker compose
+Steps to manage mutli-container application using docker compose
 1. Start the application: From the project directory, satrt all services \
   docker compose up -d
 2. Verfiy running containers \
